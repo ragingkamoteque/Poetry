@@ -1,12 +1,16 @@
 body {
     font-family: Arial, Verdana, sans-serif;
     font-size: 90%;
-    color: #666;
-    background:url("IMG_20230920_155002.jpg");
+    color: #524c4c;
+    background: url("poet.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-left: 320px;
 }
 
 li {
-    list-style-image: ;
+    list-style-image: url("icon-plus.png");
     line-height: 1.6em;
 }
 
@@ -19,20 +23,21 @@ th, td {
     border-spacing: 0px;
     font-size: 90%;
     margin: 0px;
+    text-align: center;
 }
         
 th, td {
     text-align: left;
     background-color: #75ce97;
-    border-top: 1px solid #12b49f;
-    border-bottom: 1px solid #12b49f;
-    border-right: 1px solid #12b49f;
+    border-top: 1px solid #ffffff;
+    border-bottom: 1px solid #ffffff;
+    border-right: 1px solid #ffffff;
 }
 
 tr.head th {
     color: #fff;
     background-color: green;
-    border-bottom: 2px solid #54a074;
+    border-bottom: 2px solid #fbfffd;
     border-right: 1px solid #74be78;
     border-top: 1px solid #85dba2;
     text-align: center;
@@ -66,6 +71,7 @@ fieldset {
     border: 1px solid #75ce97;
     background-color: #19ece2;
     line-height: 1.6em;
+    margin-left: 150px;
 }
 
 legend {
@@ -92,7 +98,6 @@ input[type="submit"] {
     color: #ffffff;
     border-radius: 5px;
     padding: 5px;
-    margin-top: 10px;
 }
 
 input[type="submit"]:hover {
@@ -100,6 +105,7 @@ input[type="submit"]:hover {
     background-color: #00CC33;
     color: #ffffff;
     cursor: pointer;
+    margin-right: 20px;
 }
 
 .title {
@@ -110,4 +116,5 @@ input[type="submit"]:hover {
 .submit {
     width: 310px;
     text-align: right;
+    margin: 35px;
 }
